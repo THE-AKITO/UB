@@ -2,8 +2,8 @@ import os
 
 PREFIXES = ['!', '/', '$'] 
    
-OWNER_ID = os.getenv("OWNER_ID",1238234357)
-SUDO_USERS = os.getenv("SUDO_USERS",1238234357)
+OWNER_ID = os.getenv("OWNER_ID",7701655337)
+SUDO_USERS = os.getenv("SUDO_USERS",7701655337)
 HANDLER = ["~", ".","!","?","@","$"]
 BARATH = "http://ibb.co/r3rv3Wg"
 GROUP_ID = os.getenv("GROUP_ID", "-1002119409366")
