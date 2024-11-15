@@ -23,7 +23,7 @@ async def alive():
     ALIVE_TEX = "ɪ ᴀᴍ ᴀʟɪᴠᴇ ᴍᴀꜱᴛᴇʀ"
     EMOTES = ["😍", "💀", "😊", "👋", "🎉", "🔥", "🌟", "💫", "🚀", "🤖", "👻", "👾", "🧡"]
 
-    photo_url = "https://graph.org/file/d4de87d4427c910a3815c.mp4"
+    photo_url = "http://ibb.co/r3rv3Wg"
     
     ALIVE_TEXT = f"""{ALIVE_TEX}
 ▰▱▰▱▰▱▰▱▰▱▰▱▰
@@ -36,7 +36,7 @@ async def alive():
 
 <b>ᴜꜱᴇʀʙᴏᴛ</b> {user_hyperlink}
 
-<b>Source: <a href='{SOURCE}'>TEAM-X-APEX</a></b>"""
+<b>Source: <a href='{SOURCE}'>Powered & Copyright Claimed</a></b>"""
 
 
     return ALIVE_TEXT, photo_url
