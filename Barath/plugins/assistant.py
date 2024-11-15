@@ -32,12 +32,12 @@ async def start(_, message):
      name = info.first_name
      id = info.id
      if user_id in SPAM:
-         return await message.reply("[`HI MASTER USERBOT IS ALIVE MADE BY LOVELY NETWORK`]")
+         return await message.reply("[`HI MASTER USERBOT IS ALIVE`]")
      SPAM.append(user_id)
      await message.forward(config.GROUP_ID)
      mention = f"[{name}](tg://user?id={id})"
      BUTTON=InlineKeyboardMarkup([[
-     InlineKeyboardButton("SOURCE 👾", url=config.SOURCE),]])
+     InlineKeyboardButton("☆", url=config.SOURCE),]])
      await message.reply_text(text=strings.BOT_START.format(mention=mention, applive=applive, botlive=botlive),quote=True, reply_markup=BUTTON ,parse_mode=enums.ParseMode.MARKDOWN)
      await asyncio.sleep(20)
      SPAM.remove(user_id)
