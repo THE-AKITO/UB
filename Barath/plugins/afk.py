@@ -26,7 +26,7 @@ async def afk(barath, message):
     else:
         reason = arg
     await Zect.set_afk(True, afk_time, reason)
-    await message.edit("**@AKIRA_ISHIKKI SENSEI IS' AFK**")
+    await message.edit("**╔══════════════════════════╗\n\n Hᴇʏ ☯️  Mʏ Mᴀsᴛᴇʀ 🌟🌟 Is Sɪɴᴄᴇ Oғғʟɪɴᴇ Fᴏʀ A Wʜɪʟᴇ , Sᴏᴏɴ Hᴇ Wɪʟʟ Bᴀᴄᴋ Tᴏ Rᴇᴘʟʏ 👍\n\n 𝙳𝚘𝚗'𝚝 𝚂𝚙𝚊𝚖 🚫 𝙱𝚎 𝙿𝚊𝚝𝚒𝚎𝚗𝚝 😐\n\n ╚══════════════════════════╝**")
 
 
 @barath.on_message(filters.mentioned & ~filters.bot & filters.create(user_afk), group=11)
