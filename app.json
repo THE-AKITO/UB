@@ -21,7 +21,7 @@
     },
     "TOKEN": {
        "description": "create your bot in @botfather",
-       "value": "5607648274:AAEXnN_zouqlfhux75RqiR9xLOtz-fufVqg",
+       "value": "7421954505:AAGROy_3MJgiqyaF0DKR79h_Znxy9x2-UVs",
        "required": true
     },
     "OWNER_ID": {
@@ -31,7 +31,7 @@
     },
     "GROUP_ID": {
        "description": "Add group ID where bot must be admin and userbot must be there.",
-       "value": "-1002119409366",
+       "value": "-1002109988264",
        "required": true
     },
     "DB_NAME": {
