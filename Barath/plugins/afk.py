@@ -44,10 +44,10 @@ async def afk_mentioned(_, message):
     AFK_RESTIRECT[cid] = int(time.time()) + DELAY_TIME
     if reason:
        await message.reply(
-        f"**I'm AFK right now (since {afk_since})\nReason:** __{reason}__"
+        f"╔══════════════════════════╗\n\n Hᴇʏ ☯️  Mʏ Mᴀsᴛᴇʀ 🌟🌟 Is Sɪɴᴄᴇ Oғғʟɪɴᴇ Fᴏʀ A Wʜɪʟᴇ , Sᴏᴏɴ Hᴇ Wɪʟʟ Bᴀᴄᴋ Tᴏ Rᴇᴘʟʏ 👍\n\n **AFK 》(Since{afk_since})**\n **Reason 》__{reason}__**\n\n 𝙳𝚘𝚗'𝚝 𝚂𝚙𝚊𝚖 🚫 𝙱𝚎 𝙿𝚊𝚝𝚒𝚎𝚗𝚝 😐\n\n ╚══════════════════════════╝"
         )
     else:
-        await message.reply(f"**SENSEI IS AFK RIGHT NOW(since {afk_since})**")
+        await message.reply(f"**╔══════════════════════════╗\n\n Hᴇʏ ☯️  Mʏ Mᴀsᴛᴇʀ 🌟🌟 Is Sɪɴᴄᴇ Oғғʟɪɴᴇ Fᴏʀ A Wʜɪʟᴇ , Sᴏᴏɴ Hᴇ Wɪʟʟ Bᴀᴄᴋ Tᴏ Rᴇᴘʟʏ 👍\n\n AFK 》(Since{afk_since})\n Reason 》__{reason}__\n\n 𝙳𝚘𝚗'𝚝 𝚂𝚙𝚊𝚖 🚫 𝙱𝚎 𝙿𝚊𝚝𝚒𝚎𝚗𝚝 😐\n\n ╚══════════════════════════╝(since {afk_since})**")
 
         _, message_type = get_message_type(message)
         if message_type == Types.TEXT:
