@@ -39,7 +39,7 @@ RESTART_TEXT1 = """
 📅 DATE: [`{date}`]
 ⏰ TIME: [`{time}`]
 
-[POWERED BY @Dark_Nemesis0]
+[POWERED BY @THE_AKITO]
 """
 
 RESTART_TEXT2 = """
@@ -48,7 +48,7 @@ RESTART_TEXT2 = """
 📅 DATE: [`{date}`]
 ⏰ TIME: [`{time}`]
 
-[POWERED BY @Dark_Nemesis0]
+[POWERED BY @THE_AKITO]
 """
 
 RESTART_TEXT3 = """
@@ -57,7 +57,7 @@ RESTART_TEXT3 = """
 📅 DATE: [`{date}`]
 ⏰ TIME: [`{time}`]
 
-[POWERED BY @Dark_Nemesis0]
+[POWERED BY @THE_AKITO]
 """
 
 
