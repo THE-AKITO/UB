@@ -6,17 +6,17 @@
 "env": {
     "API_ID": {
       "description": "api id get from my.telegram.org/apps",
-      "value": "28122413",
+      "value": "23241529",
       "required": true
     },
     "API_HASH": {
       "description": "api hash get from my.telegram.org/app",
-      "value": "750432c8e1b221f91fd2c93a92710093",
+      "value": "f413b120fda101d2b833f132db2dbf54",
       "required": true
     },
     "SESSION": {
       "description": "Pyrogram String Session",
-      "value": "BQGtHS0ASRXJubr7sC7vJLoLlFz7n6LYwBGAEEAIgCpmiDiOBZMxYbJF3dqaO2qh5fHE_xSwuUo63h4ZaE5Q8sghJEOTlKAwrxWsaq0cZv1aA40fRjNBz9m1bDep-r8DW9qRsGCHkAmcze2P3s4q7YnrfWdJ9A9uCgU2JT2ojTmd55_FBLI3XhOwMc9u7luyEidFKmGUrXCeMs22FOeBxfcWRbacqqSfQLpacddAftN57NftEJHdTz95W55FtqPNQ_k1ABlD6DcZ96ooWY-bhmQcJUTy-kusGCt0rH6Q6E6u9zov58EVPFDGtEBi4PnXUVdGjsXPef_93XVUjxWZGz6M8BASuwAAAABJzfT1AA",
+      "value": "BQFiozkAdyabkN2HIfxAO7GvKyiwaSVinLtV1xyvxquoYi6IWpVK3vM3zyCjo3VBOuqE4k8r_b2CNuK96cfnWPiWR75lpUAjKB3g2Jg4Lo3Btfn9K-V4iu8YOxzR1w2zuwNCEXjNtd_fD3OEiCn2XIuujsCQyALZWYaG0R8UZFPNwbujmia_KYnkyT4xT4vhhoXrGA6_Ib8Ni17NvkvCrwi4oh8skQ8oY8WblnGR0Ry1wFGVF6JuiHi_GAEenueE6xdDEsgxaoBOTG91XGEDxw8li-LQlwg4XfR17V73biB_gJLfO9Tl-Ho53beIXZdt5FyVaQSQFFNJleuK7AWQdHlaz7qnxAAAAAHLDe8pAA",
       "required": true
     },
     "TOKEN": {
